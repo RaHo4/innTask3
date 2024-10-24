@@ -1,0 +1,33 @@
+body {
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+
+  --font-side-menu-color: #898989;
+  --font-video-description-color: #c2c2c2;
+  --font-video-name-color: #19202c;
+  --font-subscriptions-color: #000000;
+  --font-search-color: #30384c;
+
+  --bg-search-color: #ebebeb;
+  --red-color: #ff0000;
+  --white-color: #ffffff;
+  margin: 0 32px;
+}
+
+input {
+  border: none;
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (max-device-width: 600px) {
+  body {
+    margin: 0 16px;
+  }
+  .hideMobile {
+    display: none;
+  }
+}

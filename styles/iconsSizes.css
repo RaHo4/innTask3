@@ -1,0 +1,76 @@
+#search {
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  right: 17px;
+  top: 13px;
+}
+
+#logo {
+  width: 116px;
+  height: 25px;
+}
+
+#menu {
+  width: 20px;
+  height: 17px;
+  margin-right: 28px;
+}
+
+#videocamera {
+  width: 27px;
+  height: 20px;
+  margin: 0 25px;
+}
+
+#dots {
+  width: 21px;
+  height: 21px;
+  margin: 0 25px;
+}
+
+#notifications {
+  width: 22px;
+  height: 26px;
+  /* margin: 0 25px; */
+}
+
+.notificationsWrapper {
+  position: relative;
+  margin: 0 25px;
+  /* width: 22px; */
+  height: 26px;
+}
+
+.notificationsWrapper figcaption {
+  position: absolute;
+  left: 9px;
+  bottom: 14px;
+  background-color: var(--red-color);
+  width: 18px;
+  height: 18px;
+  font-size: 12px;
+  color: var(--white-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+#pfp {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+@media screen and (max-device-width: 600px) {
+  #pfp {
+    width: 30px;
+    height: 30px;
+  }
+  #search {
+    position: static;
+  }
+}
