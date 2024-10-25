@@ -8,17 +8,17 @@
       href="https://fonts.googleapis.com/css?family=Muli"
       rel="stylesheet"
     />
-    <link href="../styles/styles.css" rel="stylesheet" />
     <link href="../styles/iconsSizes.css" rel="stylesheet" />
     <link href="../styles/header.css" rel="stylesheet" />
-
+    <link href="../styles/styles.css" rel="stylesheet" />
+    <link href="../styles/aside.css" rel="stylesheet" />
   </head>
   <body>
     <header>
       <div class="leftHeaderSection">
         <img
           id="menu"
-          src="../assets/header/menu.png"
+          src="../assets/header/menu.svg"
           alt="Menu"
           class="hideMobile"
         />
@@ -28,7 +28,7 @@
       </div>
       <div class="rightHeaderSection">
         <div class="searchBar">
-          <img src="../assets/header/search.png" alt="Search" id="search" />
+          <img src="../assets/header/search.svg" alt="Search" id="search" />
           <input
             type="text"
             placeholder="Search"
@@ -41,7 +41,7 @@
             class="hideMobile"
           >
             <img
-              src="../assets/header/videocamera.png"
+              src="../assets/header/videocamera.svg"
               alt="Go live"
               id="videocamera"
             />
@@ -50,7 +50,7 @@
             href="http://127.0.0.1:5500/home%20page/index.html"
             class="hideMobile"
           >
-            <img src="../assets/header/dots.png" alt="Dots" id="dots" />
+            <img src="../assets/header/dots.svg" alt="Dots" id="dots" />
           </a>
           <a
             href="http://127.0.0.1:5500/home%20page/index.html"
@@ -58,7 +58,7 @@
           >
             <figure class="notificationsWrapper">
               <img
-                src="../assets/header/notifications.png"
+                src="../assets/header/notifications.svg"
                 alt="Notifications"
                 id="notifications"
               />
@@ -71,5 +71,144 @@
         </div>
       </div>
     </header>
+    <main>
+      <aside>
+        <nav>
+          <ul>
+            <li>
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/home.svg" alt="" />
+                </div>
+                <figcaption>Home</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/trending.svg" alt="" />
+                </div>
+                <figcaption>Trending</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/subscriptions.svg" alt="" />
+                </div>
+                <figcaption>Subscriptions</figcaption>
+              </figure>
+            </li>
+            <li>
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/library.svg" alt="" />
+                </div>
+                <figcaption>Library</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/history.svg" alt="" />
+                </div>
+                <figcaption>History</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/watch later.svg" alt="" />
+                </div>
+                <figcaption>Watch later</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/favourites.svg" alt="" />
+                </div>
+                <figcaption>Favourites</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/liked.svg" alt="" />
+                </div>
+                <figcaption>Liked videos</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/music.svg" alt="" />
+                </div>
+                <figcaption>Music</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/games.svg" alt="" />
+                </div>
+                <figcaption>Games</figcaption>
+              </figure>
+            </li>
+            <li class="hideMobile">
+              <figure>
+                <div class="sideMenuImageWrapper">
+                  <img src="../assets/side menu/show more.svg" alt="" />
+                </div>
+                <figcaption>Show more</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </nav>
+        <h2 class="hideMobile">Subscriptions</h2>
+        <ul class="hideMobile subscriptions">
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Gussie Singleton</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Nora Francis</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Belle Briggs</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Eunice Cortez</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Emma Hanson</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="../assets/header/user.png" alt="" />
+              <figcaption>Leah Berry</figcaption>
+            </figure>
+          </li>
+        </ul>
+        <figure class="hideMobile" id="setting">
+          <img src="../assets/side menu/setting.svg" alt="" />
+          <figcaption>Setting</figcaption>
+        </figure>
+      </aside>
+    </main>
   </body>
 </html>

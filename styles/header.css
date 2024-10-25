@@ -4,6 +4,7 @@ header {
   justify-content: flex-start;
   height: 84px;
   width: 100%;
+  background-color: var(--white-color);
 }
 
 .leftHeaderSection {
@@ -41,7 +42,7 @@ header {
   justify-content: space-between;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 767px) {
   header {
     height: 50px;
   }

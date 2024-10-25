@@ -5,7 +5,7 @@ body {
   --font-side-menu-color: #898989;
   --font-video-description-color: #c2c2c2;
   --font-video-name-color: #19202c;
-  --font-subscriptions-color: #000000;
+  --font-black: #000000;
   --font-search-color: #30384c;
 
   --bg-search-color: #ebebeb;
@@ -29,7 +29,7 @@ ul {
   padding: 0;
 }
 
-@media screen and (max-device-width: 600px) {
+@media screen and (max-device-width: 767px) {
   body {
     margin: 0 16px;
   }
