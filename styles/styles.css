@@ -11,7 +11,7 @@ body {
   --bg-search-color: #ebebeb;
   --red-color: #ff0000;
   --white-color: #ffffff;
-  margin: 0 32px;
+  margin: 0 70px 0 32px;
 }
 
 input {
@@ -21,6 +21,12 @@ input {
 
 figure {
   margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-device-width: 600px) {

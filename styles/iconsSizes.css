@@ -1,6 +1,4 @@
 #search {
-  width: 19px;
-  height: 19px;
   position: absolute;
   right: 17px;
   top: 13px;
@@ -12,33 +10,20 @@
 }
 
 #menu {
-  width: 20px;
-  height: 17px;
   margin-right: 28px;
 }
 
 #videocamera {
-  width: 27px;
-  height: 20px;
   margin: 0 25px;
 }
 
 #dots {
-  width: 21px;
-  height: 21px;
   margin: 0 25px;
-}
-
-#notifications {
-  width: 22px;
-  height: 26px;
-  /* margin: 0 25px; */
 }
 
 .notificationsWrapper {
   position: relative;
   margin: 0 25px;
-  /* width: 22px; */
   height: 26px;
 }
 
