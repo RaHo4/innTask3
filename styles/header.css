@@ -5,6 +5,10 @@ header {
   height: 84px;
   width: 100%;
   background-color: var(--white-color);
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  left: 0;
 }
 
 .leftHeaderSection {
@@ -17,23 +21,24 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   width: 100%;
 }
 
 .searchBar {
   position: relative;
-  max-width: fit-content;
+  width: 52%;
 }
 
 .searchBarInput {
   font-size: 16px;
-  width: 784px;
+  width: 100%;
   height: 44px;
   background-color: var(--bg-search-color);
   border-radius: 22px;
   display: flex;
   justify-content: center;
-  padding: 0px 23px;
+  padding: 0 0 0 23px;
 }
 
 .rightHeaderSection > *:last-child {
@@ -48,5 +53,8 @@ header {
   }
   .rightHeaderSection {
     justify-content: flex-end;
+  }
+  .searchBar {
+    max-width: fit-content;
   }
 }

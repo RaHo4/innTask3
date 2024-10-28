@@ -1,0 +1,143 @@
+.videoPreviewWrapper,
+.videoPreviewWrapperL {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 14px;
+}
+
+.videoPreviewWrapper {
+  width: 250px;
+  height: 150px;
+}
+
+.videoPreviewWrapperL {
+  width: 540px;
+  height: 250px;
+}
+
+.videoPreviewWrapper img, .videoPreviewWrapperL img {
+  max-width: 100%;
+}
+
+.videoLength {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 3px 10px 3px 8px;
+  border-radius: 12px;
+  font-size: 14px;
+  color: var(--white-color);
+}
+
+.videoTitle {
+  margin: 10px 0 4px 0;
+  font-size: 16px;
+  color: var(--font-video-name-color);
+}
+
+.videoStats {
+  display: flex;
+  justify-content: space-between;
+  color: var(--font-video-stats-color);
+  font-size: 13px;
+  width: 100%;
+}
+
+.arrowWrapper {
+  width: 28px;
+  height: 28px;
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrowWrapper > img {
+  padding: 0 3px 0 0;
+}
+
+.arrowWrapper:last-child {
+  transform: rotateY(180deg);
+  margin: 0 0 0 10px;
+}
+
+.navArrows {
+  display: flex;
+}
+
+.channel {
+  display: flex;
+  align-items: center;
+}
+
+.channel > img {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px 0 0;
+  border-radius: 50%;
+}
+
+.channel > figcaption {
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--font-video-name-color);
+}
+
+.subscribe {
+  background-color: var(--red-color);
+  border: none;
+  border-radius: 20px;
+  color: var(--white-color);
+  padding: 10px 20px 10px 20px;
+  margin: 0 40px 0 0;
+}
+
+.recommended {
+  color: var(--font-video-stats-color);
+  margin: 0 0 0 20px;
+}
+
+.channelWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+
+.channelWrapper > * {
+  display: flex;
+  align-items: center;
+}
+
+.videoList {
+  display: flex;
+  overflow-x: auto;
+  margin: 0 0 50px 0;
+}
+
+.videoList::-webkit-scrollbar {
+  display: none;
+}
+
+.videoList > figure:not(:last-child) {
+  margin: 0 40px 0 0;
+}
+
+@media screen and (max-device-width: 767px) {
+  .videoPreviewWrapper, .videoPreviewWrapperL {
+    height: 150px;
+    width: auto;
+  }
+  .videoList {
+    flex-flow: column;
+  }
+  .videoList > figure:not(:last-child) {
+    margin: 0 0 30px 0;
+  }
+}
