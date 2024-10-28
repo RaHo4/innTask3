@@ -38,7 +38,6 @@ ul {
 .mainContent {
   margin: 0 0 0 66px;
   width: calc(100% - 222px);
-  overflow: hidden; 
 }
 
 @media screen and (max-device-width: 767px) {
@@ -54,5 +53,11 @@ ul {
   .mainContent {
     margin: 0;
     width: 100%;
+  }
+}
+
+@media screen and (min-device-width: 767px) {
+  .hideDesktop {
+    display: none;
   }
 }

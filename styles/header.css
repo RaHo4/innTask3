@@ -4,6 +4,8 @@ header {
   justify-content: flex-start;
   height: 84px;
   width: 100%;
+  margin: 0 0 0 -32px;
+  padding: 0 70px 0 32px;
   background-color: var(--white-color);
   position: sticky;
   z-index: 1;
@@ -50,6 +52,8 @@ header {
 @media screen and (max-device-width: 767px) {
   header {
     height: 50px;
+    padding: 0 16px 0 16px;
+    margin: 0 0 0 -16px;
   }
   .rightHeaderSection {
     justify-content: flex-end;

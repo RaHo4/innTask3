@@ -44,6 +44,7 @@
 .videoStats {
   display: flex;
   justify-content: space-between;
+  font-weight: normal;
   color: var(--font-video-stats-color);
   font-size: 13px;
   width: 100%;
@@ -70,6 +71,7 @@
 
 .navArrows {
   display: flex;
+  margin: 0 0 0 40px;
 }
 
 .channel {
@@ -96,7 +98,6 @@
   border-radius: 20px;
   color: var(--white-color);
   padding: 10px 20px 10px 20px;
-  margin: 0 40px 0 0;
 }
 
 .recommended {
@@ -125,7 +126,7 @@
   display: none;
 }
 
-.videoList > figure:not(:last-child) {
+.videoList > figure {
   margin: 0 40px 0 0;
 }
 
@@ -135,9 +136,19 @@
     width: auto;
   }
   .videoList {
-    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
-  .videoList > figure:not(:last-child) {
+  .videoList > figure {
+    width: 288px;
+    /* max-width: 300px; */
+    margin: 0 10px 10px 30px;
+    /* overflow: auto; */
+  }
+  /* .videoList > figure:not(:last-child) {
     margin: 0 0 30px 0;
+  } */
+  .subscribe {
+    margin: 20px 0 0 0;
   }
 }
